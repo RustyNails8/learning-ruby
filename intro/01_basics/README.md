@@ -67,6 +67,16 @@ game = "#{franchise} #{number}" # Final Fantasy 7
 
 See how flexible it is? You can mix and match variables of different types.
 
+## Different from origin:  
+["Original Repo"](https://github.com/training-mode/ruby)
+
+Jut wanted to highlight that variables can be called by 
+
+```
+name = "Sumit"
+puts "Hello #{name}"
+```
+
 ## Constants
 If you expect a value to never change during the life of a program, that's a **constant** and should be treated specially. In some other languages, it is impossible to change a constant after it's been created. Although the Ruby interpreter can't enforce this in the same way, it can alert you with warnings if something in your program tries to change a constant.
 
@@ -95,7 +105,7 @@ Using the above code, create a program which declares a variable, **age_sum**, t
 
 The program should print the following to the console:
 ```ruby
-Sum of ages = # ? 
+Sum of ages = # ?
 Result      = # ?
 ```
 
